@@ -36,6 +36,7 @@
         <module>async</module>
         <module>jdbc</module>
         <module>rabbitmq</module>
+        <module>rocketmq</module>
         <module>springweb</module>
         <module>spring-gateway</module>
         <module>httpservlet</module>

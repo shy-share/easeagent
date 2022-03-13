@@ -137,6 +137,7 @@ public interface ConfigConst {
         String JDBC_CONNECTION = "jdbcConnection";
         String JDBC_STATEMENT = "jdbcStatement";
         String KAFKA = "kafka";
+        String ROCKETMQ= "rocketmq";
         String RABBITMQ = "rabbitmq";
         String REDIS = "redis";
         String SERVICE_NAME = "serviceName";
