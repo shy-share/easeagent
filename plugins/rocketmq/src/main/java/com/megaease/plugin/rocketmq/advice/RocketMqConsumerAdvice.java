@@ -12,7 +12,7 @@ public class RocketMqConsumerAdvice implements Points {
     @Override
     public IClassMatcher getClassMatcher() {
         return ClassMatcher.builder()
-            .hasSuperClass("com.rocketmq.client.Consumer")
+            .hasSuperClass("org.apache.rocketmq.client.consumer")
             .notAbstract()
             .notInterface()
             .build();
